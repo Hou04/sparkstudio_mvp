@@ -1,0 +1,26 @@
+{
+  // VS Code launch configurations for Dart & Flutter
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "sparkstudio_mvp (Dart Web)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "chrome"
+    },
+    {
+      "name": "sparkstudio_mvp (Windows)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "windows"
+    },
+    {
+      "name": "Flutter: Attach to Web Server",
+      "request": "attach",
+      "type": "dart"
+    }
+  ]
+}
